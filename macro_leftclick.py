@@ -41,3 +41,4 @@ while True:
     elif keyboard.is_pressed(start_key) and status == False:
         print("(+) Macro has started")
         status = True
+    time.sleep(macro_time)
